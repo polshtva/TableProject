@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        td{
+            text-wrap: nowrap;
+        }
+        caption{
+            font-family: "Libre Baskerville", serif;
+            font-weight: 500;
+        }
+        p{
+            line-height: 157%;
+            font-style: italic;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias totam nobis esse ex officia id tenetur exercitationem minima voluptates, mollitia explicabo dolores iure corrupti nesciunt odit fugit quisquam aperiam voluptatem, laborum assumenda commodi quo? Molestiae debitis dolores accusantium, ipsam quos veniam mollitia obcaecati ad dicta voluptatum eaque beatae dolorum!</p>
+    <table border="1">
+        <caption>Table</caption>
+        <tr>
+            <td>1 ячейка</td>
+            <td>2 ячейка</td>
+            <td>3 ячейка</td>
+        </tr>
+        <tr>
+            <td>4 ячейка</td>
+            <td>5 ячейка</td>
+            <td>6 ячейка</td>
+        </tr>
+        <tr>
+            <td>4 ячейка</td>
+            <td>5 ячейка</td>
+            <td>6 ячейка</td>
+        </tr>
+    </table>
+    <h2>1 таблица</h2>
+    <table border="1">
+        <caption>Автомобили</caption>
+    <thead>
+            <tr>
+                <th>Номер п/п</th>
+                <th>Марка</th>
+                <th>Модель</th>
+                <th>Стоимость руб.</th>
+            </tr>
+    </thead
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Тойота</td>
+            <td>Corolla</td>
+            <td>19000000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Тойота</td>
+            <td>Camry</td>
+            <td>24000000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Тойота</td>
+            <td>RAV 4</td>
+            <td>26000000</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Итого</td>
+            <td>69000000</td>
+        </tr>
+    </tfoot>    
+    </table>
+
+    <h1>2 таблица</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2">номер</th>
+                <th colspan="2">теги</th>
+            </tr>
+            <tr>
+                <th>тег</th>
+                <th>значение</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>p</td>
+                <td rowspan="4">для текста</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>i</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>table</td>
+                <td>таблица</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>tr</td>
+                <td>ряд таблицы</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>td</td>
+                <td rowspan="2">ячейки таблицы</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>th</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h1 style="color: red; font-weight: bold;">Задание 4</h1>
+    <table border="1">
+        <caption>Учебный план</caption>
+        <thead>
+            <tr>
+                <th rowspan="4">Наименование дисциплин</th>
+                <th colspan="2" rowspan="2">Расписание по семестрам</th>
+                <th colspan="7">Количество часов</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Всего часов</td>
+                <td colspan="5">С преподавателем</td>
+                <td rowspan="3">Самостоятельная работа</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Экзамен</td>
+                <td rowspan="2">Зачет</td>
+                <td colspan="4">Аудиторные занятия</td>
+                <td rowspan="2">Индивидуальные занятия</td>
+            </tr>
+            <tr>
+                <td>Всего</td>
+                <td>Лекции</td>
+                <td>Лабораторные занятия</td>
+                <td>Практические занятия</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Информатика</td>
+                <td>2</td>
+                <td>1</td>
+                <td>235</td>
+                <td>136</td>
+                <td>34</td>
+                <td>102</td>
+                <td>-</td>
+                <td>30</td>
+                <td>66</td>
+            </tr>
+            <tr>
+                <td>Математика</td>
+                <td>2</td>
+                <td>1</td>
+                <td>235</td>
+                <td>136</td>
+                <td>34</td>
+                <td>102</td>
+                <td>-</td>
+                <td>30</td>
+                <td>66</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Всего (ч)</td>
+                <td>532</td>
+                <td>336</td>
+                <td>84</td>
+                <td>152</td>
+                <td>50</td>
+                <td>80</td>
+                <td>166</td>
+            </tr>
+        </tfoot>
+          <tr>
+                <td>Информатика</td>
+                <td>2</td>
+                <td>1</td>
+                <td>235</td>
+                <td>136</td>
+                <td>34</td>
+                <td>102</td>
+                <td>-</td>
+                <td>30</td>
+                <td>66</td>
+            </tr>
+
+    </table>
+
+</body>
+</html>

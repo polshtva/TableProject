@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+caption{
+    /* цвет текста */
+    color:rgba(224, 177, 107, 0.5);
+    /* жирность текста */
+    font-weight: bold;
+    /* размер */
+    font-size: 50px;
+}
+
+td{
+    /* заливка */
+    background-color: beige;
+    text-align: center;
+    /* тень */
+    box-shadow: 8px 8px 8px gray;
+    border: 1px solid red;
+}
+
+h2{
+  text-transform:capitalize;
+  cursor: pointer;
+  font-family: "Libre Baskerville", serif;
+}
+
+div{
+    background-color: black;
+    width: 500px;
+    height: 200px;
+    border: 9px dashed green;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+li{
+    color: aliceblue;
+    list-style: none;
+}
